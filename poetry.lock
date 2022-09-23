@@ -1,0 +1,27 @@
+[[package]]
+name = "logic-toolchain"
+version = "0.0.2"
+description = "Wrapper for FPGA toolchain tools"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pygame"
+version = "2.1.2"
+description = "Python Game Development"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.8.0,<3.9"
+content-hash = "9da98548f88ac45a6af58cf6708ce6ad4c4eebcd02a7a0642a769e8227b0d469"
+
+[metadata.files]
+logic-toolchain = [
+    {file = "logic-toolchain-0.0.2.tar.gz", hash = "sha256:e88fa67c67f66f067d53ed67da651c2827835351e45e452c93647f78324ce5e9"},
+    {file = "logic_toolchain-0.0.2-py3-none-any.whl", hash = "sha256:2de33afd84bf2c73f50e7b1d9f5228653385905c723800e2f218d69a04baaa7d"},
+]
+pygame = []
